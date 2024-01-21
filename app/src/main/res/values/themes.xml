@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChatBOTTheme." parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Chatbot" parent="Base.Theme.Chatbot" />
+
+
+    <!---splashscreen-->
+    <style name="splashscreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/background</item>
+        <item name="android:windowBackground">@drawable/background_splashscreen</item>
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!---Custom Theme-->
+    <style name="Theme.ChatBOTTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
